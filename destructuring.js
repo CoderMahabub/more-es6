@@ -1,5 +1,4 @@
 // Destructuring
-
 const fish = {
     id: 58,
     name: 'King Hilsha',
