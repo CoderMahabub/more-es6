@@ -2,7 +2,6 @@ const friends = ['Tom Hanks', 'Tom Cruise', 'Tom Brady', 'Tom Solaiman'];
 const fLength = friends.map(friend => friend.length);
 // console.log(fLength);
 
-
 const products = [
     {
         name: 'water bottle',
@@ -30,7 +29,6 @@ const productNames = products.map(product => product.name);
 const productsPrice = products.map(product => product.price);
 const productsColor = products.map(product => product.color);
 // products.map(product => console.log(product));
-
 // products.forEach(product => console.log(product)); //forEach
 
 console.log(productNames, productsPrice, productsColor);
