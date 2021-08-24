@@ -8,11 +8,15 @@ class Support {
         this.address = address;
     }
     startSession() {
-        console.log(this.name + 'Start a support session');
+        console.log(this.name, 'Start a support session');
     };
 }
 
-const aamir = new Support('Aamir Khan', 'India');
+const aamir = new Support('Aamir Khan', 'Dubai');
 const salman = new Support('Salman Khan', 'BD');
-console.log(salman);
-console.log(aamir);
+const shahrukh = new Support('SRK', 'Bangladesh');
+const akshay = new Support('Akshay', 'Bangladesh');
+aamir.startSession();
+salman.startSession();
+console.log(aamir, salman, shahrukh, akshay);
+// console.log(salman);
