@@ -4,8 +4,6 @@ const output2 = [];
 // function doubleOld(number) {
 //     return number * 2;
 // }
-
-
 const doubleIt = number => number * 2;
 
 for (const number of numbers) {
