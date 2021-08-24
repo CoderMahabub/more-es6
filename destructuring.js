@@ -44,3 +44,25 @@ const { name, food } = company.ceo;
 const { employee } = company.web;
 const { telephone, location } = company.web.office;
 console.log(phone, location, name, food, employee);
+
+const familyMember = {
+    name: 'dewan',
+    member: 5,
+    married: 'all',
+    aged: 2,
+    daughter: {
+        dNmae: 'Sejma Akhtar',
+        dAge: 30,
+        has: 'son & daughter',
+        husband: 'Govt Employee',
+        husbandDetail: {
+            hName: 'Gazi Rahman',
+            hAge: 35,
+            color: 'white'
+        }
+    }
+}
+const { name, married, aged } = familyMember;
+const { dAge, dNmae, husband } = familyMember.daughter;
+const { hName, hAge, color } = familyMember.daughter.husbandDetail;
+console.log(name, married, dNmae, dAge, hName, hAge);
